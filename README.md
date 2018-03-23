@@ -1,9 +1,5 @@
 # from-Unbuntu-to-Kali
-A simple quick script to import Kali basic packages into Ubuntu.```
-chmod +x scrypt.sh
-```
-
-
+A simple quick script to import Kali basic packages into Ubuntu.
 
 3 arguments :
 simple

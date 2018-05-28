@@ -1,15 +1,12 @@
 # from-Unbuntu-to-Kali
 A simple quick script to import Kali basic packages into Ubuntu.
 
-3 arguments :
-simple
-intermediate
-complete
+Run it :
 
 ```
-chmod +x script.sh
-
-./script
+python3 script.py
 ```
 
-
+** /!\ IMPORTANT /!\ **
+To complete the "from Ubuntu to Kali", you need to download a dragon wallpaper.
+Enjoy ;)

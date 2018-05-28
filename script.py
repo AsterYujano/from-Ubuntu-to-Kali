@@ -2,23 +2,48 @@ import os
 import subprocess
 
 basicTools = [
-	'nmap'
+	'nmap',
+	'curl',
+	'dirb'
 ]
 
 moreTools = [
-	'dirbuster'
+	'wifite',
+	'aircrack-ng',
+	'reaver',
+	'bully',
+	'metasploit',
+	'armitage'
 ]
 
 install = 'sudo apt-get install '
 
-print("[+] choice :")
+print("\n|------------------------------|")
+print("|  If you need Kali tools...   |")
+print("| ...But you only have Ubuntu  |")
+print("|------------------------------|")
+print(" [+] Choice between :")
 print(" (1) - Basic tools")
 print(" (2) - More tools")
 
-if choice == 1:
+print("\n_______________________")
+print("Basic tools : ")
+for tool in basicTools:
+		print(tool+" ", end=" ")
+print("\n_______________________")
+print("All the basic tools, more :")
+for tool in moreTools:
+		print(tool+" ", end=" ")
+print("\n_______________________")
+print("What do you choose ?")
+
+
+choice = input()
+
+if choice == "1":
 	for tool in basicTools:
 		os.system(install+tool)
-elif choice == 2:
+elif choice == "2":
 	for tool in basicTools:
 		os.system(install+tool)
 	for tool in moreTools:

@@ -7,6 +7,6 @@ Run it :
 python3 script.py
 ```
 
-** /!\ IMPORTANT /!\ **
+/!\ IMPORTANT /!\
 To complete the "from Ubuntu to Kali", you need to download a dragon wallpaper.
 Enjoy ;)

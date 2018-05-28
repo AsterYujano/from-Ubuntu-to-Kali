@@ -1,4 +1,4 @@
-# from-Unbuntu-to-Kali
+# from-Ubuntu-to-Kali
 A simple quick script to import Kali basic packages into Ubuntu.
 
 Run it :

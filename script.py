@@ -4,7 +4,9 @@ import subprocess
 basicTools = [
 	'nmap',
 	'curl',
-	'dirb'
+	'dirb',
+	'exiftool',
+	'steghide'
 ]
 
 moreTools = [
@@ -13,7 +15,8 @@ moreTools = [
 	'reaver',
 	'bully',
 	'metasploit',
-	'armitage'
+	'armitage',
+	'wireshark'
 ]
 
 install = 'sudo apt-get install '
